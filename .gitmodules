@@ -1,0 +1,3 @@
+[submodule "actividades"]
+	path = actividades
+	url = https://github.com/Designedby-Radol/actividadesJ1.git
