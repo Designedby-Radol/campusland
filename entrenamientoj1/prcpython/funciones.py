@@ -19,25 +19,3 @@ print ("hola" , "tunombre", sep='\n')
 
 if (True == True): 
     print("hola")
-
-
-"""
-Desarrollador:  Raul Santiago Ramirez Puyo
-Problema: crear un programa que me permita tener los colores a partir de los primarios
-"""
-#definir los tres colores primarios
-rojo = int(1)
-amarillo = int(2)
-azul = int(3)
-#definir que colores se pueden obtener
-verde = int(amarillo + azul)  # 5
-morado =int (azul + rojo) # 4
-naranja = int(amarillo + rojo) # 3
-# darle al cliente los colores que tenemos disponibles y imprimir en pantalla el color que quiera
-print('Hola buenas tardes','Tenemos estos colores','1 rojo', '2 amarillo',sep = '\n')
-descicion = int(input())
-for(i=True):
-    if ():
-        
-
-
