@@ -27,4 +27,19 @@ si paso 5 hrs
     las otras 4hrs valen $4 cada una $4*4
     osea precio = $5 + $16
 """
+import random
+import string
+def sumaPares():
+    suma = 0
+    while True:
+        numero = int(input('Introduce un número: '))
+        if numero % 2 == 0:
+            suma += numero
+            print(f'La suma de los números pares introducidos hasta ahora es {suma}.')
+            continue
+        elif numero % 2 != 0:
+            print('Se ha introducido un número impar.')
+            break
+    return f' la suma de los pares es: {suma}'
 
+print(sumaPares())
