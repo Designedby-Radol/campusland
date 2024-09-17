@@ -19,3 +19,9 @@ print ("hola" , "tunombre", sep='\n')
 
 if (True == True): 
     print("hola")
+
+class anidada():
+    def funcopop1(a,b):
+        return a+b
+
+print(anidada.funcopop1(3,4))
